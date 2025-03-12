@@ -347,12 +347,6 @@ AOS.init({
 	};
 })(jQuery);
 
-
-
-
-
-
-
 // this makes the height of each page equal to the height of the window
 // $('.page').css('height', $( window ).height());
 
@@ -374,8 +368,6 @@ AOS.init({
 		}, 500);
 		hash($(this).attr('href'));
 	});
-
-
 
 	//select all the anchors in the navbar one after another
 	$navbara.each(function () {
@@ -410,7 +402,6 @@ hash = function (h) {
 	}
 }
 
-
 $(function () {
 
 	$(".progress").each(function () {
@@ -427,14 +418,10 @@ $(function () {
 				left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
 			}
 		}
-
 	})
-
 	function percentageToDegrees(percentage) {
 
 		return percentage / 100 * 360
-
 	}
-
 });
 
